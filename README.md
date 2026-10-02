@@ -2,6 +2,8 @@
 
 A CNN trained on MNIST that recognizes handwritten digits (0-9) drawn with the mouse.
 
+![Screenshot](screenshot.png)
+
 ## Files
 
 - `model.py` - CNN architecture
