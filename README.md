@@ -2,14 +2,17 @@
 
 A CNN trained on MNIST that recognizes handwritten digits (0-9) drawn with the mouse.
 
+**[Try it in your browser](https://littlestarkr.github.io/handwritten-digit-recognizer/)** - no install needed, runs the model client-side with onnxruntime-web.
+
 ![Screenshot](screenshot.png)
 
 ## Files
 
 - `model.py` - CNN architecture
 - `train.py` - trains the model on MNIST and saves `digit_cnn.pth`
-- `predict_gui.py` - Tkinter app: draw a digit, click Predict
+- `predict_gui.py` - Tkinter desktop app: draw a digit, click Predict
 - `digit_cnn.pth` - pretrained weights (test accuracy ~99.1%)
+- `index.html` / `app.js` / `digit_cnn.onnx` - browser version of the same app, served via GitHub Pages
 
 ## Setup
 
