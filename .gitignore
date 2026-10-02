@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 data/
 .claude/
+손글씨숫자인식_로컬실행.bat
